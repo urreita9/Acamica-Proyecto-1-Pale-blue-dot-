@@ -1,0 +1,111 @@
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgba(6,10,36,1);
+}
+body {
+    margin: 0;
+}
+/*HEADER*/
+.header-principal {
+    height: 80px;
+    width: 100%;
+    position: relative;
+}
+.logo {
+    width: 36px;
+    height: 36px;
+    background-image: url(../Images/logo.svg);
+    background-size: 100%;
+    display: inline-block;
+    background-position: center;
+    position: absolute;
+    top: 22px;
+    left: 7%;
+}
+.nav-menu {
+    position: absolute;
+    top: 14px;
+    right: 7%;
+}
+
+.nav-menu ul li {
+    list-style: none; 
+    display: inline-block;  
+}
+.nav-menu ul li a {
+    font-size: 16px;
+    margin: 0 20px;
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+.nav-menu ul li a:hover {
+    color: rgba(0,243,187,1);
+    text-decoration: line-through;
+}
+/*CLICK QUE QUEDE GRIS
+.nav-menu ul li a:on {
+    color: rgba(6,10,36,0.56);
+    text-decoration: line-through;
+}
+*/
+
+/* SECCIÓN 1 */
+.seccion-1 {
+    height: 151px;
+}
+.seccion-1 article h1{
+    font-size: 34px;
+    position: relative;
+    top: 32%;
+    left: 13.8%;
+    margin-bottom: 0;
+}
+.seccion-1 article p {
+    
+    display: block;
+    width: 450px;
+    position: relative;
+    font-size: 11px;
+    left: 13.8%;
+    margin-top: 0;
+}
+.seccion-1 article a {
+    display: inline-block;
+    position: relative;
+    left: 13.8%;
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(0,243,187,1);
+    padding: 13px 30px;   
+}
+
+#span-h1-1 {
+    text-decoration: line-through;
+}
+#span-h1-2 {
+    color: rgba(0,0,236,1);
+}
+/*MAIN*/
+main{
+    position: relative;
+    display: block;
+}
+main h2{
+    position: relative;
+    left: 13.8%;
+}
+.main-podcasts{
+    position: absolute;
+    left: 7%;
+    display: flex;
+    max-width: 700px;
+    max-height: 700px;
+    flex-wrap: wrap;
+}
+.podcasts{
+    display: inline-block;
+    margin: 10px;
+}

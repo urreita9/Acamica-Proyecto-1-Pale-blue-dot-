@@ -1,0 +1,267 @@
+*{
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgba(6,10,36,1);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+p, h2, h1{
+    color: #060A24;
+}
+
+h1,
+h2{
+    font-size: 36px;
+    font-family: 'IBM Plex Sans', sans-serif;;
+    font-weight: normal;
+}
+/*HEADER*/
+.header-principal {
+    height: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    width: 36px;
+    height: 36px;
+    background-image: url(../Images/logo.svg);
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.boton-menu{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-right: 4%;
+    
+}
+.boton-menu:hover{
+    opacity: 0.3;
+}
+/*.boton-menu:focus,
+ .nav-menu {
+    display: block;
+}*/
+
+.menu-hamburguesa,
+.menu-hamburguesa::before,
+.menu-hamburguesa::after{
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: #000000;
+}
+.menu-hamburguesa::before{
+    transform: translateY(-8px);
+}
+.menu-hamburguesa::after{
+    transform: translateY(8px);
+}
+.nav-menu{
+    width: 100%;
+    max-width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #0000EC;
+    display: none;
+}
+.nav-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-menu ul li{
+    margin: 4%;
+}
+.nav-menu ul li a{
+    font-size: 16px;
+    margin: 0 4%;
+    text-decoration: none; 
+    color: #FFFFFF;
+    text-transform: uppercase; 
+}
+.nav-menu ul li a:hover {
+    color: rgba(0,243,187,1);
+    text-decoration: line-through;
+}
+/* @media only screen and (min-width: 600px)
+{
+/*NAV DESKTOP
+nav{
+    display: flex;
+}
+.nav-menu {
+
+    position: absolute;
+    top: 14px;
+    right: 7%;
+}
+
+.nav-menu ul li {
+    list-style: none; 
+    display: inline-block;  
+}
+.nav-menu ul li a {
+    font-size: 16px;
+    margin: 0 20px;
+    text-decoration: none; 
+    text-transform: uppercase; 
+}
+.nav-menu ul li a:hover {
+    color: rgba(0,243,187,1);
+    text-decoration: line-through;
+}
+.nav-menu ul li a:active{
+    color: #060A24;
+    text-decoration: line-through;
+}
+} */
+
+/*Seccion 1*/
+.seccion-1{
+    max-height: fit-content;
+    
+}
+.seccion-1 article {
+    margin: 0 4%;
+}
+
+#span-h1-1{
+    text-decoration: line-through;
+
+}
+.seccion-desktop-p{
+    display: none;
+}
+.boton-conoce_mas,
+.boton-escucha_los_episodios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00F3BB;
+    cursor: pointer;
+}
+.boton-conoce_mas a,
+.boton-escucha_los_episodios{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
+    opacity: 100%;
+    padding: 10px 0;
+}
+.boton-conoce_mas:hover,
+.boton-escucha_los_episodios:hover{
+    background-image: linear-gradient(to right,#00F0B8, #0000FE);
+}
+/*Main*/
+
+main{
+    margin: 0 4%;
+}
+.main-podcasts{
+    margin: 0 4%;
+
+}
+.podcasts iframe{
+    height: 232px;
+    width: 100%;
+    max-width: 100%;
+}
+
+/*Seccion 2*/
+
+.seccion-2{
+    margin: 0 4%;
+    max-width: 100%;
+}
+.cellphone{
+    margin-top: 30px;
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    box-sizing: border-box;
+    background-image: url(../Images/phone.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.seccion-2 article {
+    margin: 0 4%;
+}
+
+/* Seccion 3 */
+
+.seccion-3 header{
+    margin: 0 4%;
+}
+.seccion-3 header h2{
+    margin: 0 4% 20px 4%;
+}
+.invitados{
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fotos_invitados{
+    margin-bottom: -5px;
+}
+.fotos_invitados img{
+   width: 100%;
+   height: 100%;
+}
+
+/*TEMAS*/
+
+.temas{
+    margin: 0 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.temas div {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ /*NOVEDADES y FOOTER*/ 
+
+ .novedades,
+ .footer {
+    margin: 0 4%;
+    text-align: center;
+ }
+ .footer h2{
+    font-size: 14px;
+ }
+ .footer ul{
+     box-sizing: border-box;
+     padding: 0;
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+ }
+ .footer ul li {
+   font-size: 20px;  
+ }
+
