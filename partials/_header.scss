@@ -1,0 +1,121 @@
+.header-principal {
+    height: 80px;
+    /* width: 100%; NO HAY CAMBIOS EN INSPECT*/ 
+    display: flex;
+    /* flex-direction: row; NO HAY CAMBIOS EN INSPECT */
+    /* justify-content: space-between;  NO HAY CAMBIOS EN INSPECT*/
+    align-items: center;
+}
+.logo {
+    width: 36px;
+    height: 36px;
+    background-image: url(../Images/logo.svg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-left: 4%;
+}
+
+.header-principal span {
+    width: 36px;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    top: 38.5px;
+    right: 4%;
+}
+.barra_toggle_1{
+    transform: translateY(-9px);
+    transition: ease-in-out 0.3s;
+}
+.barra_toggle_3{
+    transform: translateY(9px);
+    transition: ease-in-out 0.3s;
+}
+#checkbox{
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 4%;
+    right: 3%;
+
+}
+input[type="checkbox"]:checked ~ .barra_toggle_1{
+    transform: rotateZ(45deg);
+    transition: ease-in-out 0.3s;
+}
+input[type="checkbox"]:checked ~ .barra_toggle_2{
+    transition: ease-in-out 0.3s;
+    opacity: 0;
+}
+input[type="checkbox"]:checked ~ .barra_toggle_3{
+    transform: rotateZ(-45deg);
+    transition: ease-in-out 0.3s;
+}
+input[type="checkbox"]:checked ~ .nav-menu{
+    opacity: 1;
+    z-index: 1;
+    transition: ease-in-out 0.3s;
+}
+.nav-menu{
+    position: absolute;
+    top: 14%;
+    width: 100%;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background-color: #0000EC;
+    z-index: -1;
+}
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu li{
+    margin: 4%;
+}
+.nav-menu li a{
+    font-size: 16px;
+    text-decoration: none; 
+    color: #FFFFFF;
+    text-transform: uppercase; 
+}
+.nav-menu ul li a:hover {
+    color: rgba(0,243,187,1);
+    text-decoration: line-through;
+}
+
+@media (min-width: 1024px){
+    .header-principal{
+        justify-content: space-between;
+    }
+    .header-principal span{
+        display: none;
+    }
+    #checkbox{
+        display: none;
+    }
+    .nav-menu{
+        opacity: 1;
+        background: #FFFFFF;
+        position: static;
+        width: 50%;
+        margin-right: 4%;
+        transition: none;
+        z-index: 1;
+    }
+    .nav-menu ul{
+        transition: none;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .nav-menu ul li a{
+        color: #060A24;
+    }
+    
+}
