@@ -88,34 +88,3 @@ input[type="checkbox"]:checked ~ .nav-menu{
     color: rgba(0,243,187,1);
     text-decoration: line-through;
 }
-
-@media (min-width: 1024px){
-    .header-principal{
-        justify-content: space-between;
-    }
-    .header-principal span{
-        display: none;
-    }
-    #checkbox{
-        display: none;
-    }
-    .nav-menu{
-        opacity: 1;
-        background: #FFFFFF;
-        position: static;
-        width: 50%;
-        margin-right: 4%;
-        transition: none;
-        z-index: 1;
-    }
-    .nav-menu ul{
-        transition: none;
-        display: flex;
-        align-content: center;
-        justify-content: space-between;
-    }
-    .nav-menu ul li a{
-        color: #060A24;
-    }
-    
-}

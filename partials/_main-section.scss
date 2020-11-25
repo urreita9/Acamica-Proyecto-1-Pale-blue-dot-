@@ -26,26 +26,3 @@ main h2 {
     width: 100%;
     max-width: 100%;
 }
-@media (min-width: 1024px){
-    .fondo_diagonal {
-        padding-bottom: 15%;
-        clip-path: polygon(0 11%, 100% 0%, 100% 89%, 0% 100%);
-    }
-    #main {
-        padding-top: 10%;
-    }
-    .main-podcasts {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-flow: row wrap;
-    }
-    .podcasts {
-        width: 48%;
-        margin-top: 3%;
-    }
-    .podcasts iframe {
-        width: 100%;
-        max-width: 100%;
-    }
-}

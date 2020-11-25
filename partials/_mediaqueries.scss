@@ -1,0 +1,141 @@
+//HEADER
+@media (min-width: 1024px){
+    .header-principal{
+        justify-content: space-between;
+    }
+    .header-principal span{
+        display: none;
+    }
+    #checkbox{
+        display: none;
+    }
+    .nav-menu{
+        opacity: 1;
+        background: #FFFFFF;
+        position: static;
+        width: 50%;
+        margin-right: 4%;
+        transition: none;
+        z-index: 1;
+    }
+    .nav-menu ul{
+        transition: none;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+    }
+    .nav-menu ul li a{
+        color: #060A24;
+    }
+    
+}
+
+//SECCION 1
+@media (min-width: 1024px){
+    .boton-conoce_mas,
+    .boton-escucha_los_episodios {
+    width: 20%;
+    margin-left: 4%;
+    }
+    .boton-escucha_los_episodios{
+        padding: 10px 30px;
+        margin: 0 auto;
+    }
+    .seccion-1 h1 {
+        margin-left: 4%;
+    }
+    #span-h1-2{
+        color: #0000FE;
+        //NO ANDA
+    }
+    .seccion-desktop-p{
+        display: block;
+        margin-left: 4%;
+    }
+    .seccion-movil-p {
+        display: none;
+    }
+}
+
+//MAIN
+@media (min-width: 1024px){
+    .fondo_diagonal {
+        padding-bottom: 15%;
+        clip-path: polygon(0 11%, 100% 0%, 100% 89%, 0% 100%);
+    }
+    #main {
+        padding-top: 10%;
+    }
+    .main-podcasts {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+    .podcasts {
+        width: 48%;
+        margin-top: 3%;
+    }
+    .podcasts iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+//SECCION 2
+@media (min-width: 1024px) {
+    .seccion-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -7%;
+    }
+    .seccion-2 article {
+        width: 40%;
+    }
+    .cellphone {
+        width: 30%;
+        margin-top: auto;
+    }
+}
+
+//TEMAS
+@media (min-width: 1024px) {
+    .temas header h2 {
+        margin-left:  4%;
+    }
+    .container_temas {
+        flex-direction: row;
+    }
+    .container_temas div {
+        width: 15%;
+    }
+}
+
+//FOOTER
+@media (min-width: 1024px) {
+    .novedades {
+        padding-top: 10% ;
+        padding-bottom: 10%;
+        clip-path: polygon(0 27%, 100% 0%, 100% 100%, 0% 100%);
+       background: linear-gradient(to right, #0000FF, #0000A3);
+       margin: 0;
+    }
+    .novedades h2 {
+        color: #FFFFFF;
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+    .footer ul {
+        position: absolute;
+        right: 4%;
+    }
+    .footer ul li {
+        margin-left: 15%;
+    }
+   
+}

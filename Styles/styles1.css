@@ -116,7 +116,7 @@ input[type="checkbox"]:checked ~ .nav-menu{
 } */
 .nav-menu{
     position: absolute;
-    top: 14%;
+    top: 80px;
     width: 100%;
     opacity: 0;
     transition: ease-in-out 0.3s;
@@ -328,6 +328,7 @@ main h2 {
     max-width: 100%;
     z-index: 1;
     position: relative;
+    z-index: 9;
 }
 .cellphone img{
     width: 100%;

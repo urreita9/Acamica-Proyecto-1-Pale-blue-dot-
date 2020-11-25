@@ -19,29 +19,3 @@
   font-size: 20px;  
 }
 
-@media (min-width: 1024px) {
-    .novedades {
-        padding-top: 10% ;
-        padding-bottom: 10%;
-        clip-path: polygon(0 27%, 100% 0%, 100% 100%, 0% 100%);
-       background: linear-gradient(to right, #0000FF, #0000A3);
-       margin: 0;
-    }
-    .novedades h2 {
-        color: #FFFFFF;
-    }
-    .footer {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    }
-    .footer ul {
-        position: absolute;
-        right: 4%;
-    }
-    .footer ul li {
-        margin-left: 15%;
-    }
-   
-}

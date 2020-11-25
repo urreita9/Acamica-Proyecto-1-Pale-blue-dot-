@@ -93,14 +93,3 @@
     text-align: center;
 }
 
-@media (min-width: 1024px) {
-    .temas header h2 {
-        margin-left:  4%;
-    }
-    .container_temas {
-        flex-direction: row;
-    }
-    .container_temas div {
-        width: 15%;
-    }
-}

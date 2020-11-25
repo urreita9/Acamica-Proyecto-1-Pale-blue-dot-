@@ -6,10 +6,10 @@
     @extend %margin-general;
 }
 
-#span-h1-1{
+#span-h1-1 {
     text-decoration: line-through;
-
 }
+
 .seccion-desktop-p{
     display: none;
 }
@@ -33,26 +33,4 @@
 .boton-conoce_mas:hover,
 .boton-escucha_los_episodios:hover{
     background-image: linear-gradient(to right,#00F0B8, #0000FE);
-}
-
-@media (min-width: 1024px){
-    .boton-conoce_mas,
-    .boton-escucha_los_episodios {
-    width: 20%;
-    margin-left: 4%;
-    }
-    .boton-escucha_los_episodios{
-        padding: 10px 30px;
-        margin: 0 auto;
-    }
-    .seccion-1 h1 {
-        margin-left: 4%;
-    }
-    .seccion-desktop-p{
-        display: block;
-        margin-left: 4%;
-    }
-    .seccion-movil-p {
-        display: none;
-    }
 }
