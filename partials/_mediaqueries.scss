@@ -41,8 +41,10 @@
         padding: 10px 30px;
         margin: 0 auto;
     }
-    .seccion-1 h1 {
-        margin-left: 4%;
+    .seccion-1 {
+            h1 {
+            margin-left: 4%;
+        }
     }
     #span-h1-2{
         color: #0000FE;
@@ -97,6 +99,19 @@
         width: 30%;
         margin-top: auto;
     }
+}
+
+// SECTION 3
+
+@media (min-width: 768px) {
+    .seccion-3{
+        .invitados {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            grid-template-rows: 50% 50%;
+        }
+    }   
+
 }
 
 //TEMAS
