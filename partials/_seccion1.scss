@@ -13,24 +13,3 @@
 .seccion-desktop-p{
     display: none;
 }
-.boton-conoce_mas,
-.boton-escucha_los_episodios{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #00F3BB;
-    cursor: pointer;
-}
-.boton-conoce_mas a,
-.boton-escucha_los_episodios{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bolder;
-    opacity: 100%;
-    padding: 10px 0;
-}
-.boton-conoce_mas:hover,
-.boton-escucha_los_episodios:hover{
-    background-image: linear-gradient(to right,#00F0B8, #0000FE);
-}

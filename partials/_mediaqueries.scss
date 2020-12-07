@@ -1,5 +1,5 @@
 //HEADER
-@media (min-width: 1024px){
+@media (min-width: 1000px){
     .header-principal{
         justify-content: space-between;
     }
@@ -31,13 +31,13 @@
 }
 
 //SECCION 1
-@media (min-width: 1024px){
+@media (min-width: 1000px){
     .boton-conoce_mas,
-    .boton-escucha_los_episodios {
-    width: 20%;
+    .boton-escucha-los-episodios {
+    width: 25%;
     margin-left: 4%;
     }
-    .boton-escucha_los_episodios{
+    .boton-escucha-los-episodios{
         padding: 10px 30px;
         margin: 0 auto;
     }
@@ -60,7 +60,7 @@
 }
 
 //MAIN
-@media (min-width: 1024px){
+@media (min-width: 1000px){
     .fondo_diagonal {
         padding-bottom: 15%;
         clip-path: polygon(0 11%, 100% 0%, 100% 89%, 0% 100%);
@@ -85,7 +85,7 @@
 }
 
 //SECCION 2
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
     .seccion-2 {
         display: flex;
         align-items: center;
@@ -103,7 +103,7 @@
 
 // SECTION 3
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
     .seccion-3{
         .invitados {
             display: grid;
@@ -115,7 +115,7 @@
 }
 
 //TEMAS
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
     .temas header h2 {
         margin-left:  4%;
     }
@@ -128,12 +128,13 @@
 }
 
 //FOOTER
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
+    
     .novedades {
         padding-top: 10% ;
         padding-bottom: 10%;
         clip-path: polygon(0 27%, 100% 0%, 100% 100%, 0% 100%);
-       background: linear-gradient(to right, #0000FF, #0000A3);
+       background: linear-gradient(to right,#0000A3, #0000FF);
        margin: 0;
     }
     .novedades h2 {

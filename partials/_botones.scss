@@ -1,0 +1,43 @@
+
+// .boton-conoce_mas,
+// .boton-escucha_los_episodios{
+//     align-items: center;
+//     justify-content: center;
+//     background-color: #00F3BB;
+//     cursor: pointer;
+//     padding: 10px 30px;
+// }
+// .boton-conoce_mas a,
+// .boton-escucha_los_episodios{
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     font-size: 16px;
+//     font-weight: bolder;
+//     //opacity: 100%;
+//     padding: 10px 0;
+// }
+// .boton-conoce_mas:hover,
+// .boton-escucha_los_episodios:hover{
+//     background-image: linear-gradient(to right,#00F0B8, #0000FE);
+// }
+
+.boton-conoce_mas,
+.boton-escucha-los-episodios{
+    //display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: #00F3BB;
+    cursor: pointer;
+    padding: 10px 0;
+    //box-sizing: border-box;
+    text-transform: uppercase;
+    font-weight: bold;
+        a{
+            text-decoration: none;
+        } 
+}
+
+.boton-conoce_mas:hover,
+.boton-escucha-los-episodios:hover{
+    background-image: linear-gradient(to right,#00F0B8, #0000FE);
+}

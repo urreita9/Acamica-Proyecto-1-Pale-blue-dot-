@@ -62,7 +62,7 @@ input[type="checkbox"]:checked ~ .nav-menu{
 }
 .nav-menu{
     position: absolute;
-    top: 14%;
+    top: 80px;
     width: 100%;
     opacity: 0;
     transition: ease-in-out 0.3s;
@@ -79,7 +79,7 @@ input[type="checkbox"]:checked ~ .nav-menu{
     margin: 4%;
 }
 .nav-menu li a{
-    font-size: 16px;
+    font-size: $font-size-smaller;
     text-decoration: none; 
     color: #FFFFFF;
     text-transform: uppercase; 

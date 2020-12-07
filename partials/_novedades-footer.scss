@@ -1,12 +1,27 @@
 /*NOVEDADES y FOOTER*/ 
 
+.novedades {
+padding-top: 10% ;
+padding-bottom: 10%;
+clip-path: polygon(0 16%, 100% 0%, 100% 100%, 0% 100%);
+background: linear-gradient(to right, #0000A3, #0000FF);
+margin: 0;
+}
+.novedades{
+ z-index: 1;
+}
+.novedades h2{
+  color: white;
+  
+}
 .novedades,
+.novedades article,
 .footer {
     @extend %margin-general;
    text-align: center;
 }
 .footer h2{
-   font-size: 14px;
+   font-size: $font-size-titles;
 }
 .footer ul{
     box-sizing: border-box;
@@ -16,6 +31,6 @@
     justify-content: space-evenly;
 }
 .footer ul li {
-  font-size: 20px;  
+  font-size: 1.5rem;  
 }
 
