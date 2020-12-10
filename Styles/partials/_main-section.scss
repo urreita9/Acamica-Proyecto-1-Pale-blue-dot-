@@ -5,7 +5,6 @@
     margin-top: 20px;
     padding-bottom: 40%;
     position: relative;
-    //z-index: 1;
 }
 #main {
     @extend %margin-general;
@@ -25,4 +24,5 @@ main h2 {
     height: 232px;
     width: 100%;
     max-width: 100%;
+    border: 0;
 }
